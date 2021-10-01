@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 0;
+}
+
+#display {
+    padding: 30px;
+    width: 232px;
+    text-align: right;
+}
+
+
+input {
+    border-collapse: collapse;
+    font-size: 15pt;
+    cursor: pointer;
+    padding: 35px;
+    width: 35px;
+    font-size: 18pt;
+    height: 1vh;
+}
+
+
+.equals{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bolder;
+ 
+}
+
+.equals:hover {
+    background-color: rebeccapurple;
+}
+
+.equals:active {
+    background-color: rgb(21, 146, 115);
+}
+
+table {
+    border-collapse: collapse;
+}
