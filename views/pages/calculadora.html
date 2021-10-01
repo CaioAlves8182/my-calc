@@ -3,39 +3,71 @@
   <head>
     <title>Calculadora</title>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body onkeypress="manipularTeclado()">
+<<<<<<< HEAD
+      <table >
+          <tr >
+              <td colspan="6"><input class="bt-number" type="text" id="display" value="0" disabled></td>
+          </tr>
+          <tr>
+            <td><input class="bt-number" type="button" value="7" onclick="atualizarDisplay(this)"/></td>
+            <td><input class="bt-number"  type="button" value="8" onclick="atualizarDisplay(this)" /></td>
+            <td><input class="bt-number"  type="button" value="9" onclick="atualizarDisplay(this)" /></td>
+            <td><input class="bt-number"  type="button" value="*" onclick="atualizarOperacao(this)" /></td>
+        </tr>
+        <tr>
+            <td><input class="bt-number"  type="button" value="4" onclick="atualizarDisplay(this)" /></td>
+            <td><input class="bt-number" type="button" value="5" onclick="atualizarDisplay(this)" /></td>
+            <td><input class="bt-number" type="button" value="6" onclick="atualizarDisplay(this)" /></td>
+            <td><input class="bt-operator" type="button" value="-" onclick="atualizarOperacao(this)" /></td>
+        </tr>
+        <tr>
+            <td><input class="bt-number" type="button" value="1" onclick="atualizarDisplay(this)" /></td>
+            <td><input class="bt-number" type="button" value="2" onclick="atualizarDisplay(this)" /></td>
+            <td><input class="bt-number" type="button" value="3" onclick="atualizarDisplay(this)" /></td>
+            <td><input class="bt-operator" type="button" value="+" onclick="atualizarOperacao(this)" /></td>
+        </tr>
+        <tr>
+            <td><input class="bt-clear" type="button" value="C" onclick="limparDisplay()" /></td>
+            <td><input class="bt-number" type="button" value="0" onclick="atualizarDisplay(this)" /></td>
+            <td><input class="bt-operator" type="button" value="/" onclick="atualizarOperacao(this)" /></td>
+            <td><input class="equals" type="button" value="=" onclick="calcularOperacao()" /></td>
+=======
       <table border="30"  cellpadding="30">
           <tr>
               <td colspan="6"><input type="text" id="display" value="0" disabled></td>
           </tr>
           <tr>
-	    <td aling="center"> </td>
+	    <td align="center"> </td>
             <td><input class="bt-number"  type="button" value="7" onclick="atualizarDisplay(this)" /></td>
             <td><input class="bt-number" type="button" value="8" onclick="atualizarDisplay(this)" /></td>
             <td><input class="bt-number"  type="button" value="9" onclick="atualizarDisplay(this)" /></td>
             <td><input class="bt-number"  type="button" value="*" onclick="atualizarOperacao(this)" /></td>
         </tr>
         <tr>
-            <td aling="center"> </td>
+            <td align="center"> </td>
             <td><input  class="bt-number" type="button" value="4" onclick="atualizarDisplay(this)" /></td>
             <td><input  class="bt-number"  type="button" value="5" onclick="atualizarDisplay(this)" /></td>
             <td><input  class="bt-number" type="button" value="6" onclick="atualizarDisplay(this)" /></td>
             <td><input  class="bt-operador" type="button" value="-" onclick="atualizarOperacao(this)" /></td>
         </tr>
         <tr>
-            <td aling="center"> </td>
+            <td align="center"> </td>
             <td><input class="bt-number"  type="button" value="1" onclick="atualizarDisplay(this)" /></td>
             <td><input class="bt-number"  type="button" value="2" onclick="atualizarDisplay(this)" /></td>
             <td><input class="bt-number" type="button" value="3" onclick="atualizarDisplay(this)" /></td>
             <td><input class="bt-operador" type="button" value="+" onclick="atualizarOperacao(this)" /></td>
         </tr>
         <tr>
-            <td aling="center"> </td>
+<<<<<<< HEAD
+            <td align="center"> </td>
             <td><input class="bt-clear" type="button" value="C" onclick="limparDisplay()" /></td>
             <td><input class="bt-number"  type="button" value="0" onclick="atualizarDisplay(this)" /></td>
             <td><input class="bt-operador" type="button" value="=" onclick="calcularOperacao()" /></td>
-            <td><input class="bt-equals" type="button" value="/" onclick="atualizarOperacao(this)" /></td>
+            <td><input class="equals" type="button" value="/" onclick="atualizarOperacao(this)" /></td>
+>>>>>>> 1119b24d17ec483643ab594eaec5a05cba620d89
         </tr>
       </table>
       <script>
